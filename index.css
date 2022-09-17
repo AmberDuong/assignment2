@@ -71,20 +71,6 @@ nav {
 	/* font-size: 23px; */
 }
 
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 h1 {
 	margin-top: 50px;
 	margin-bottom: 50px;
