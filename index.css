@@ -2,8 +2,8 @@ header {
 	font-size: 22px;  
 	margin: -8px; 
 	height: 25px;
-    text-decoration: none;
-    padding: 12px; 
+	text-decoration: none;
+	padding: 12px; 
 	background-color: #f0f8ff;
 	text-align: center;
 	color: #154360;
@@ -13,17 +13,20 @@ header:hover {
 	font-size: 25px;  
 	text-decoration: none;
 }
+
 header a {
 	text-decoration: none;
 	color: #154360;
 }
+
 body {
 	text-align: center;
 }
-nav {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
+
+nav { 
+	width: auto;
+	display: flex;
+	justify-content: space-between;
 	position:relative;
 	margin-bottom: 80px;
 	margin-top: 0px;
@@ -33,24 +36,24 @@ nav {
 }
 
 .exs a{
-    text-decoration: none;
-    color: #154360;
-    cursor: pointer;
-    background-color: #f0f8ff;
-    font-size: 22px;  
-    font-weight: bold;
+	text-decoration: none;
+	color: #154360;
+	cursor: pointer;
+	background-color: #f0f8ff;
+	font-size: 22px;  
+	font-weight: bold;
 	border-radius: 50%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align:center;
-    display:flex;
-    align-items: center;
-    box-sizing: border-box;
-    width: max-content;
-    justify-content:center;
-    min-width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align:center;
+	display:flex;
+	align-items: center;
+	box-sizing: border-box;
+	width: max-content;
+	justify-content:center;
+	min-width: 100%;
 	position: absolute;
 	text-align: center;
 	line-height: 30px;
@@ -61,14 +64,13 @@ nav {
 	color: #e8f4f6;
 	font-size: 28px;  
 	transition: all 0.5s;
-  }
+}
 
 .exs {
 	width: 300px;
-    height: 300px;
+	height: 300px;
 	border-radius: 50%;
 	position:relative;
-	/* font-size: 23px; */
 }
 
 h1 {
